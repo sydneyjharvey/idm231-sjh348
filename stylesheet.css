@@ -1,0 +1,141 @@
+html {
+  background-color:lightpink;
+  color:rgb(219, 0, 140);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 52px;
+}
+
+.z_button {
+  cursor: pointer;
+  opacity: 0%;
+  width: 90%;
+  height: 90%;
+  margin: 5%;
+}
+
+#zodiac_icons {
+  display:grid;
+  grid-template-areas:
+  "aries taurus gemini cancer leo virgo"
+  "libra scorpio sagittarius capricorn aquarius pisces";
+  grid-template-columns: 200px 200px 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px;
+  padding-left: 8%;
+}
+
+li:hover {
+  transform:scale(1.2,1.2);
+ }
+
+li.aries {
+  background-image: url("Images/Aries.png");
+  background-size: 70%;
+  padding: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+li.taurus {
+  background-image: url("Images/Taurus.png");
+  background-size: 70%;
+  padding: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+li.gemini {
+  background-image: url("Images/Gemini.png");
+  background-size: 70%;
+  padding: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+li.cancer {
+  background-image: url("Images/Cancer.png");
+  background-size: 70%;
+  padding: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+li.leo {
+  background-image: url("Images/Leo.png");
+  background-size: 70%;
+  padding: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+li.virgo {
+  background-image: url("Images/Virgo.png");
+  background-size: 70%;
+  padding: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+li.libra {
+  background-image: url("Images/Libra.png");
+  background-size: 70%;
+  padding: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+li.scorpio {
+  background-image: url("Images/Scorpio.png");
+  background-size: 70%;
+  padding: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+li.sagittarius {
+  background-image: url("Images/Sagittarius.png");
+  background-size: 70%;
+  padding: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+li.capricorn {
+  background-image: url("Images/Capricorn.png");
+  background-size: 70%;
+  padding: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+li.aquarius {
+  background-image: url("Images/Aquarius.png");
+  background-size: 70%;
+  padding: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+li.pisces {
+  background-image: url("Images/Pisces.png");
+  background-size: 70%;
+  padding: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.modal {
+  text-align: center;
+}
+.modal #z_copy {
+  font-size: 48px;
+}
+.modal #z_description {
+  font-size:  24px;
+}
+.modal #z_image {
+  width: 20%;
+  max-height: 20%;
+}
+
+#user_info {
+  text-align: center;
+}
+
+.modal_2 {
+  text-align: center;
+  padding: 0px 30%;
+  font-size: 1.2rem;
+}

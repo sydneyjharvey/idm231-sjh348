@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Zodiac Quiz: Which Kirby Copy Ability Are You?</h1>
+
+    <div id="user_info">
+        <div><input id="bday" type="date"></div>
+        <div><button id="user_submit">Enter</button></div>
+        <p></p>
+        <div><button id="help_submit">Help</button></div>
+    </div>
+
+    <div id="modal_2" class="modal_2" hidden>
+        <div class="modal_2-body">
+            <div class="modal_2-content">
+                <p id="help_desc">Submit your date of birth above to reveal your zodiac sign and Kirby copy ability! Alternativly, click any of the zodiac signs below to see their respective copy abilities. Click "Help" again to close this window.</p>
+            </div>
+        </div>
+    </div>
+
+    <ul id="zodiac_icons" style="list-style-type:none;">
+        <li class="aries"><button class="z_button" id="Ari"></button></li>
+        <li class="taurus"><button class="z_button" id="Tau"></button></li>
+        <li class="gemini"><button class="z_button" id="Gem"></button></li>
+        <li class="cancer"><button class="z_button" id="Can"></button></li>
+        <li class="leo"><button class="z_button" id="Leo"></button></li>
+        <li class="virgo"><button class="z_button" id="Vir"></button></li>
+        <li class="libra"><button class="z_button" id="Lib"></button></li>
+        <li class="scorpio"><button class="z_button" id="Sco"></button></li>
+        <li class="sagittarius"><button class="z_button" id="Sag"></button></li>
+        <li class="capricorn"><button class="z_button" id="Cap"></button></li>
+        <li class="aquarius"><button class="z_button" id="Aqu"></button></li>
+        <li class="pisces"><button class="z_button" id="Pis"></button></li>
+    </ul>
+
+    <div id="modal" class="modal" hidden>
+        <div class="modal-body">
+            <div class="modal-content">
+                <div><p><span id="z_copy">You are an instrument!</span> <span id="zDate"></span></p></div>
+                <p id="z_description">This is a description.</p>
+                <img id="z_image" src="img/blank.png" alt="blank"/>
+                <p></p>
+                <button id="btn-modal-close" class="toggle-modal">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="speakers"></audio>
+    <script src="main.js"></script>
+</body>
+</html>
